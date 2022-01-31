@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02b509f1a8c01caf0ea89302564e225f",
+    "content-hash": "6b5ec8d5bc39888e97441f4289575320",
     "packages": [
         {
             "name": "ddeboer/transcoder",
@@ -3873,10 +3873,11 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^5.6 || ^7",
+        "php": "^5.6 || ^7 || ^8",
         "ext-soap": "*",
         "ext-xml": "*",
         "ext-dom": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
